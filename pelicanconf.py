@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'en'
 
@@ -20,21 +20,20 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Custom Solutions', 'https://github.com/IMTorgCustomSoln'),
+         ('Visualizations', 'http://github.com/IMTorgVisSoln'),
+         ('Integrated Tools', 'http://github.com/IMTorgOpenTools'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('IMT website', 'http://mgmt-tech.org'),
+          ('Open Group', 'http://imtorg.github.io'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'pelican-bootstrap3'
+THEME = 'Flex'
 
 MARKUP = ('md', 'ipynb')
 
