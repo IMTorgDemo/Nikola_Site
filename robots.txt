@@ -1,0 +1,4 @@
+Sitemap: https://imtorgdemo.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: imtorgdemo.github.io
