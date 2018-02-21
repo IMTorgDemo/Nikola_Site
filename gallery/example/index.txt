@@ -1,0 +1,12 @@
+.. title: Example
+.. slug: example-image
+.. date:
+.. tags: 
+.. category:
+.. link: 
+.. description:
+.. type:
+
+
+
+

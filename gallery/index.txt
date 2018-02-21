@@ -1,0 +1,11 @@
+.. title: Gallery
+.. slug:
+.. date:
+.. tags: 
+.. category:
+.. link: 
+.. description:
+.. type:
+
+
+See more architectures at `ScrumSaga <http://api.scrumsaga.com/diagram/IMTorgTestUser/>`_
