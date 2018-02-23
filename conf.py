@@ -313,19 +313,40 @@ CONTENT_FOOTER_FORMATS = {
 # Social Buttons & Counter Scripts !!
 ###############################################################################
 # Social buttons
+#SOCIAL_BUTTONS_CODE = """
+#    <div class="counter">
+#        <script src="https://www.w3counter.com/tracker.js?id=103452"></script>
+#
+#        <script>
+#            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+#            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+#            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+#            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+#
+#            ga('create', 'UA-82334406-1', 'auto');
+#            ga('send', 'pageview');
+#        </script>
+#    </div>
+#
+#    <div id="social_icons">
+#        <a href="https://github.com/imtorg/" title="My GitHub"><i class="fa fa-3x fa-github"></i></a>
+#	<!--
+#        <a href="https://www.flickr.com/example/" title="See my photos on Flickr!"><i class="fa fa-3x fa-flickr"></i></a>
+#        <a href="https://www.youtube.com/example" title="See my videos on YouTube!"><i class="fa fa-3x fa-youtube-square"></i></a>
+#	-->
+#    </div>
+#"""
+
 SOCIAL_BUTTONS_CODE = """
     <div class="counter">
-        <script src="https://www.w3counter.com/tracker.js?id=103452"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68177377-4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-82334406-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+	  gtag('config', 'UA-68177377-4');
+	</script>
     </div>
 
     <div id="social_icons">
